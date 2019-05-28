@@ -1,0 +1,14 @@
+# API Base URL
+base_url = "https://www.grappus.com/api/v1/"
+base_url_user = "https://users.humaindiagnostics.com/api/v1/user/"
+base_url_user_address = "https://users.humaindiagnostics.com/api/v1/"
+base_url_catalog = "https://catalogue.humaindiagnostics.com/api/v1/"
+base_url_document = "https://documents.humaindiagnostics.com/api/v1/"
+base_url_notification = "https://notifications.humaindiagnostics.com/api/v1/"
+base_url_payment = "https://payments.humaindiagnostics.com/api/v1/"
+base_url_logistics = "https://logistics.humaindiagnostics.com/api/v1/"
+
+# Analytics Libraries
+is_firebase_analyitcs_enabled = "true"
+is_crashlytics_enabled = "true"
+is_google_analytics_enabled = "true"

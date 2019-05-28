@@ -1,0 +1,538 @@
+<resources>
+    <string name="app_name">Humain Health</string>
+
+    <!-- Room database name -->
+    <string name="db_name">HumainHealth-DB</string>
+
+    <!-- Custom Fonts-->
+   <!-- <string name="font_light">"Roboto-Light.ttf"</string>
+    <string name="font_regular">"Roboto-Regular.ttf"</string>
+    <string name="font_medium">"Roboto-Medium.ttf"</string>
+    <string name="font_semi_bold">"Roboto-Medium.ttf"</string>
+    <string name="font_bold">"Roboto-Bold.ttf"</string>
+-->
+
+
+    <!-- notifications -->
+    <string name="noti_channel_default">General</string>
+
+    <string name="font_light">"Assistant-Light.ttf"</string>
+    <string name="font_regular">"Assistant-Regular.ttf"</string>
+    <string name="font_medium">"Assistant-SemiBold.ttf"</string>
+    <string name="font_semi_bold">"Assistant-SemiBold.ttf"</string>
+    <string name="font_bold">"Assistant-Bold.ttf"</string>
+
+    <!-- Alert Messages -->
+    <string name="alert_text">Alert</string>
+    <string name="alert_loading">Loading&#8230;</string>
+    <string name="alert_wait">Wait&#8230;</string>
+
+    <!-- Alert Dialog -->
+    <string name="alert_dialog_btn_yes">Yes</string>
+    <string name="alert_dialog_btn_no">No</string>
+    <string name="alert_dialog_msg_exit_flow">Are you sure you want to exit the flow?</string>
+    <string name="alert_dialog_msg_remove_item">Are you sure you want to remove this item?</string>
+    <string name="alert_dialog_msg_remove_only_item">Are you sure you want to empty your cart?</string>
+    <string name="alert_dialog_msg_log_out">Are you sure you want to logout?</string>
+    <string name="alert_dialog_msg_cart_location_change">Changing to a new location may clear all your cart items and order details, be sure before you proceed.</string>
+    <string name="alert_dialog_title_email">Email Required</string>
+    <string name="alert_dialog_msg_email_required">To complete payment, a valid email address is required.</string>
+    <string name="alert_dialog_what_went_wrong">Let us know what went wrong</string>
+    <string name="alert_dialog_something_specific">Something specific?</string>
+    <string name="alert_download_in_progress">Download in progress...</string>
+    <string name="alert_cancel_order">Are you sure you want to cancel this order?</string>
+    <string name="alert_delete_address">Are you sure you want to delete this address?</string>
+    <string name="alert_delete_family_member">Are you sure you want to delete this family member?</string>
+    <string name="alert_remove_profile_image">Are you sure you want to remove your profile image?</string>
+
+
+    <!-- Error Messages -->
+    <string name="error_general">Oops, Something went wrong!</string>
+    <string name="error_internet">Check your internet connection!</string>
+    <string name="error_name">Please enter name!</string>
+    <string name="error_age">Please enter age!</string>
+    <string name="error_dob">Please enter DOB!</string>
+    <string name="error_email_empty">Please enter your email id!</string>
+    <string name="error_email_invalid">Please enter correct email id!</string>
+    <string name="error_select_gender">Please select gender!</string>
+    <string name="error_self">Select self or someone else</string>
+    <string name="error_sex">Select male or female</string>
+    <string name="error_phone_invalid">Please enter a correct phone number!</string>
+    <string name="error_phone_empty">Please enter your phone number!</string>
+    <string name="error_otp">OTP can not be empty!</string>
+    <string name="error_payment_failure">Payment failed, please try again!</string>
+    <string name="error_name_save">Please enter name and save</string>
+    <string name="error_cash_only">Only Cash on Arrival option available for now</string>
+    <string name="error_location_unavailable">Please select a location where you want the tests to be done!</string>
+    <string name="error_location_mismatch">This test is not available at your selected location!</string>
+    <string name="error_insufficient_balance">You do not have sufficient balance!</string>
+    <string name="error_sufficient_balance">You already have sufficient wallet balance to pay!</string>
+    <string name="error_select_test_location">Please select a test location!</string>
+    <string name="error_complete_address">Please provide your complete address!</string>
+    <string name="error_play_services">Google Play Services are required to use notification and other important services of the app, please update!</string>
+    <string name="error_search_result">No match found!</string>
+    <string name="error_no_slots_available">No slots available.!</string>
+    <string name="error_no_date_available">No date available.!</string>
+    <string name="error_incomplete_new_address">Address not complete, please try again!</string>
+    <string name="error_invalid_card">Please enter valid card number</string>
+    <string name="error_invalid_expiry">Please enter valid expiry month and year</string>
+    <string name="error_no_notification_detail">No detail found to show!</string>
+    <string name="error_location_not_serviceable">This location is no more serviceable, please select another one.</string>
+    <string name="error_wallet_COD">Cash on arrival cannot be clubbed with Humain wallet payments. Please choose another mode.</string>
+    <string name="error_invalid_card_details">Please enter valid card details.!</string>
+    <string name="error_invalid_bank_selection">Please select a bank!</string>
+
+    <!-- Validation Rules -->
+    <string name="rule_password">Password should be at least 8 character long with 1 uppercase, 1 lowercase, 1 special and 1 numeric character</string>
+    <string name="rule_phone">Phone number should be 10 digit long without country code</string>
+    <string name="login_field_wrong">Please enter correct email or phone number!</string>
+    <string name="login_field_password">Please Enter a correct password</string>
+
+    <string name="price_default_unit">\u20B9</string>
+
+    <string name="enter_exact_location">Enter exact location</string>
+
+
+    <!-- General Messages -->
+    <string name="message_otp">You will receive an OTP on this number for validating your order</string>
+    <string name="message_resend_otp_intro">Didn\'t receive the OTP?</string>
+    <string name="message_resend_otp">Tap here to resend</string>
+    <string name="msg_provide_details">Please provide below required details</string>
+    <string name="msg_coming_soon">Coming Soon!</string>
+    <string name="freshchat_msg_coming_soon">Fresh chat coming soon!</string>
+    <string name="msg_order_cancelled">Your order has been cancelled!</string>
+    <string name="verification_code_empty">Please enter verification Code</string>
+    <string name="verification_code_invalid">Verification code is invalid</string>
+    <string name="verification_code_success">Email Verified Successfully</string>
+
+
+    <!-- Bottom Sheet Appointment Booking-->
+    <string name="book_appt">Book an appointment</string>
+    <string name="test_location">Where do you want your test to be done?</string>
+    <string name="test_loc_home">Book a home appointment</string>
+    <string name="get_test_loc_home">Get your test done at home</string>
+    <string name="test_loc_center">Visit our Customer Experience Center</string>
+    <string name="additional_charge">*addition charges may apply for same day delivery</string>
+
+
+    <!-- Order Review -->
+    <string name="order_receive_cashback">Great! You will receive \u20B9 20 cashback when your order is completed</string>
+    <string name="order_whatsapp_report">Send my report on whatsApp</string>
+    <string name="order_tests_selected">Tests Selected</string>
+    <string name="order_add_more_tests">Add More</string>
+    <string name="order_edit">Edit</string>
+    <string name="order_patient_info">Patient info</string>
+    <string name="order_report_home_deliver">I want my reports home delivered</string>
+    <string name="order_report_delivery_price">\u20B9 100</string>
+    <string name="order_includes_extra_costs">Includes \u20B9 200 extra costs</string>
+    <string name="order_home_appt_address">Home appointment \nKormangala, Bengaluru\nfsakdubveviubveroub</string>
+    <string name="order_tests">2 Tests</string>
+    <string name="order_special_instructions">Special Instructions</string>
+    <string name="extra_cost">Extra Costs</string>
+    <string name="order_complete_address">Complete Address</string>
+
+    <!-- Select Address -->
+    <string name="add_address">Add a new address</string>
+    <string name="saved_address">SAVED ADDRESSES</string>
+    <string name="non_serviceable">Non-Serviceable</string>
+
+
+    <!-- Select Slot -->
+    <string name="slot_same_day">Same day</string>
+    <string name="slot_same_day_date">31 July, 2018</string>
+    <string name="slot_same_day_cost">+ \u20B9 100</string>
+    <string name="select_slot">SELECT TIME SLOT</string>
+    <string name="slot_time_of_day">Morning</string>
+    <string name="slot_not_today">Tomorrow or later</string>
+    <string name="slot_not_today_range">01 &#8211; 06 Aug, 2018</string>
+    <string name="select_date">SELECT DATE</string>
+    <string name="slot_not_today_day">Mon, Aug</string>
+    <string name="free">FREE</string>
+
+
+    <!-- FIND TEST -->
+    <string name="health_package">Health Packages</string>
+    <string name="tests">Tests</string>
+    <string name="filter_sample_type">Filter by Sample Type</string>
+
+    <!-- Button Messages -->
+    <string name="btn_get_otp">Get OTP</string>
+    <string name="btn_verify_and_link">Verify &amp; Link</string>
+    <string name="btn_verify_otp">Verify &amp; Continue</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_toolbar_back">Back</string>
+    <string name="btn_toolbar_cancel">Cancel</string>
+    <string name="btn_toolbar_done">Done</string>
+    <string name="btn_order_proceed">PROCEED</string>
+    <string name="btn_call_phlebo">Call Phlebo</string>
+    <string name="tv_view_report">View Report</string>
+    <string name="btn_okay">Okay</string>
+    <string name="tv_reschedule">Reschedule</string>
+    <string name="btn_cancel_booking">Cancel Booking</string>
+    <string name="btn_reschedule">RESCHEDULE BOOKING</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_open_camera">Take image from Camera</string>
+    <string name="btn_open_gallery">Select image from Gallery</string>
+    <string name="btn_remove_image">Remove image</string>
+
+
+    <!-- Hint Messages -->
+    <string name="hint_phone">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_email_optional">Email (Optional)</string>
+    <string name="age">Age</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hint_otp">0</string>
+    <string name="find_test">Find Test/Package</string>
+    <string name="self">For Self</string>
+    <string name="for_someone_else">For someone else</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="appointment_booked">Appointment Booked!</string>
+    <string name="hint_special_instructions">Notes&#8230;</string>
+    <string name="hint_number">Phone number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_card_number">Card No.</string>
+    <string name="hint_expiry_date_format">MM/YY</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="hint_card_name">Name on Card</string>
+    <string name="hint_search_banks">Search banks...</string>
+
+
+    <!-- Landing Screen Tab Titles -->
+    <string name="tab_home">Home</string>
+    <string name="tab_tests">Tests</string>
+    <string name="tab_profile">Profile</string>
+    <string name="tab_help">Help</string>
+
+
+    <!-- ToolBar Title-->
+    <string name="provide_personal_information">Provide personal information</string>
+    <string name="title_select_test_location">Please Select your Center</string>
+    <string name="title_select_test">Select Tests</string>
+    <string name="title_enter_number">Give us your contact number</string>
+    <string name="title_verify_otp">Enter the OTP that you’ve just received</string>
+    <string name="title_select_slot">When do you want the test to be done?</string>
+    <string name="title_review_order">Review your Order</string>
+    <string name="title_choose_loc">Choose\nLocation</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_payment_method">How would you like to pay?</string>
+    <string name="title_notification">Notifications</string>
+    <string name="title_saved_address">Saved Addresses</string>
+    <string name="title_family">Family / Friends</string>
+    <string name="title_report">My Reports</string>
+    <string name="title_booking">My Bookings</string>
+    <string name="title_wallet">Humain Wallet</string>
+    <string name="title_net_banking">Select your bank</string>
+    <string name="title_banks_popular">Popular Banks</string>
+    <string name="title_banks_all">All Banks</string>
+    <string name="title_location_home">Home</string>
+    <string name="title_location_cec">CEC</string>
+    <string name="title_appointment_home">Home Appointment</string>
+    <string name="title_appointment_cec">Center</string>
+    <string name="title_filter_packages">By Risk Areas</string>
+    <string name="title_filter_tests">By Sample Type</string>
+    <string name="title_filter_reports">By Test</string>
+
+
+    <!-- Personal Form -->
+    <string name="form_add_new_patient">Add new patient</string>
+    <string name="book_for_existing">Booking for an existing patient?</string>
+    <string name="tap_to_go_back">Tap here to go back</string>
+
+
+    <!-- Payment Flow -->
+    <string name="pay_opt_card">Credit/Debit Card</string>
+    <string name="pay_opt_card_credit">Credit Card</string>
+    <string name="pay_opt_card_debit">Debit Card</string>
+    <string name="pay_opt_card_intro">Add your first card</string>
+    <string name="pay_opt_card_add">ADD NEW</string>
+    <string name="pay_opt_net_banking">Netbanking</string>
+    <string name="pay_opt_net_banking_intro">Choose your bank on the next step</string>
+    <string name="pay_opt_net_banking_add">SELECT BANK</string>
+    <string name="pay_opt_paytm">Paytm</string>
+    <string name="pay_opt_paytm_intro">Pay using your Paytm account</string>
+    <string name="pay_opt_paytm_add">LINK WALLET</string>
+    <string name="pay_opt_cash">Cash On Arrival</string>
+    <string name="pay_opt_cash_intro">Pay in cash</string>
+    <string name="pay_humain_wallet_balance">Humain wallet balance</string>
+    <string name="pay_proceed">Proceed to pay %1$s%2$s</string>
+
+
+    <string name="con_booking">Confirm Booking %1$s%2$s</string>
+
+    <string name="save_card_details">Securely save card details</string>
+
+    <string name="link_your_paytm">Link your Paytm Account</string>
+    <string name="proceed_to_link">Proceed to link wallet with this number</string>
+    <string name="enter_received_otp">Enter the OTP received on </string>
+    <string name="if_not_then_create_paytm_acc">If you don’t have a Paytm account, we will create one for you </string>
+
+
+    <!-- Dummy Data to be deleted later -->
+    <string name="dummy_test_loc_center">At Area1, Area2 or Area3</string>
+    <string name="dummy_date">Collected at 11:00 AM, 16 July 2018</string>
+    <string name="dummy_time">Morning 11:00 &#8211; 11:30am</string>
+
+    <string name="dummy_date_and_time">16 July 2018  •  Morning 11:00 &#8211; 11:30am</string>
+    <string name="dummy_address_1">17th G Main Rd, 5th Block, Koramangla</string>
+    <string name="dummy_address_2">12/A Main Rd, Andheri west, Bombay</string>
+    <string name="dummy_patient_name">Karan Chowdhary</string>
+    <string name="dummy_patient_details">Age 24  •  Male</string>
+    <string name="dummy_order_total_price">\u20B9 3,400</string>
+    <string name="dummy_order_cashback">You will receive ₹120 cashback within 24 hours of report generation</string>
+    <string name="dummy_address_3">002/6, Kormangala \nBengaluru Karnataka</string>
+    <string name="dummy_distance">0.3km</string>
+    <string name="dummy_reschedule_charge">₹100 will be charged on the next step for same day delivery</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Label Messages-->
+    <string name="order_summary">Order Summary</string>
+    <string name="order_summary_desc">We\'ll let you know when a phlebotomist is assigned to complete your order</string>
+    <string name="total_order">Total Order</string>
+    <string name="visit_our_customer_experience_center">Visit our Customer Experience Centre</string>
+    <string name="book_a_home_appointment">Book a home appointment</string>
+    <string name="get_your_test_done_at_home">Get your tests done at home</string>
+    <string name="get_your_test_done_at_cec">Get your tests done at our Centre</string>
+    <string name="addition_charges_may_apply_for_same_day_delivery">*addition charges may apply for same day delivery</string>
+    <string name="where_do_you_want_your_tests_to_be">Where do you want your tests to be?</string>
+    <string name="book_an_appointment">Book an appointment</string>
+    <string name="label_this_location_is_serviceable">This location is serviceable</string>
+    <string name="label_house_flat_no_society">House / Flat No. / Society</string>
+    <string name="label_landmark">Landmark</string>
+    <string name="label_save_and_proceed">Save and Proceed</string>
+    <string name="label_add_address">Add Address</string>
+    <string name="label_done">Done</string>
+    <string name="label_standing_instructions">Standing Instructions</string>
+    <string name="label_search_for_area_street_name_or_locality">Search for area, street name or locality</string>
+    <string name="label_use_current_location">Use Current Location</string>
+    <string name="label_saved_addresses">Saved Addresses</string>
+    <string name="label_find_a_test">Find Test/Package</string>
+    <string name="label_search">Search</string>
+    <string name="label_health_packages">Health Packages</string>
+    <string name="card_text">••••  ••••  ••••</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_clear_all">Clear All</string>
+    <string name="label_no_filters_available">No Test Filters available</string>
+    <string name="label_by_sample_type">By Sample Type</string>
+    <string name="label_apply">Apply</string>
+    <string name="label_close">Close</string>
+    <string name="label_total_amount">Total Amount</string>
+    <string name="label_invalid_input">Invalid Input</string>
+    <string name="label_payment_failed">Payment Failed</string>
+    <string name="label_payment_failed_error">Sorry, your payment failed. No charges were made, please try again.</string>
+    <string name="label_report_coming_soon">Full report coming soon</string>
+
+
+    <!--Help fragment-->
+    <string name="help_facing_issue">Facing an Issue?</string>
+    <string name="help_contact">Contact us</string>
+    <string name="help_cancel_order">Cancel an order</string>
+    <string name="help_reschedule_order">Reschedule an order</string>
+    <string name="help_collection">Issue with collection</string>
+    <string name="help_report">Issue with report</string>
+    <string name="help_faq">FAQs</string>
+    <string name="help_chat">Chat with us</string>
+    <string name="help_email">Email</string>
+    <string name="help_call">Call</string>
+    <string name="help_our_policies">Our Policies</string>
+    <string name="help_privacy_policy">Privacy Policy</string>
+    <string name="help_terms_conditions">Terms and Conditions</string>
+    <string name="help_refund_policy">Refund Policy</string>
+
+
+    <!--Profile fragment text-->
+    <string name="profile_wallet_bal">Wallet Balance</string>
+    <string name="profile_bookings">My Bookings</string>
+    <string name="profile_address">Saved Address</string>
+    <string name="profile_reports">My Reports</string>
+    <string name="profile_family">Family/ Friends</string>
+    <string name="profile_name">Aman Garg</string>
+    <string name="profile_number">9876543210</string>
+    <string name="profile_age">Age 24  •  Male</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_complete">Complete Profile</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_hey">Hey!</string>
+    <string name="profile_login_text">Login below with your phone number to access your profile</string>
+    <string name="profile_some_data">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</string>
+    <string name="profile_dummy_address">17th G Main Rd, 5th Block, Koramangala, Bengaluru - 560095</string>
+    <string name="profile_account">Don’t have an account?</string>
+    <string name="profile_sign_up">Sign up here</string>
+    <string name="profile_login">Login</string>
+    <string name="profile_test_name">Individual Test Name</string>
+    <string name="profile_date">16th July ‘18</string>
+    <string name="profile_dummy_id">ID:HUMO201902009</string>
+    <string name="profile_details">Details</string>
+    <string name="profile_on_way">Phlebotomist on his way </string>
+    <string name="profile_confirmation">Your confirmation code: </string>
+    <string name="profile_confirmation_code">2385</string>
+    <string name="profile_test">2 Tests</string>
+    <string name="profile_verify_email">Verify Email</string>
+    <string name="resend_verification_text">Haven\'t received code yet?</string>
+    <string name="profile_dialog_resend_verification_text">Enter the verification code sent to your email.</string>
+    <string name="profile_dialog_edit_text_hint">Verification Code</string>
+    <string name="resend_verification_send_again">Send Again</string>
+
+
+    <!-- Test & Package Details-->
+    <string name="title_tests_included">TESTS\nIncluded</string>
+    <string name="title_report_delivery">HOURS\nReport delivery</string>
+    <string name="title_fasting_required">HOURS\nFasting required</string>
+    <string name="title_test_details">Test Details</string>
+    <string name="title_precautions">Precautions</string>
+    <string name="title_payment_option">How would you like to pay?</string>
+    <string name="title_report_details">My Report</string>
+    <string name="title_add_card">Add a new card</string>
+    <string name="dummy_order_wallet_balance">300</string>
+
+
+    <!-- Appointment Cards text -->
+    <string name="text_get_samples">Get your samples collected from home or visit our nearest collection center</string>
+    <string name="text_thanks_for_your_feedback">Thanks for your feedback!</string>
+    <string name="text_rate_our_phlebotomist">Rate our phlebotomist</string>
+    <string name="text_your_feedback_will_help_us_improve">Your feedback will help us improve</string>
+    <string name="text_phlebotomist_assigned">Phlebotomist\nassigned</string>
+    <string name="text_assigned_to_complete_test">%1$s has been assigned to complete your tests. Share your confirmation code with him when he arrives.</string>
+    <string name="text_details">DETAILS</string>
+    <string name="text_write_a_review">write a review…</string>
+    <string name="text_skip">Skip</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_phlebotomist_on_his_way">Phlebotomist\non his way</string>
+    <string name="text_we_will_let_you_know_whn_complted_order">We’ll let you know a phlebotomist is assigned to complete your order"</string>
+    <string name="text_phlebo_in_route">%1$s has left for your location. Share your confirmation code with him when he arrives.</string>
+    <string name="text_phlebo_has_reached">%1$s has reached your location. Share your confirmation code to proceed with order.</string>
+    <string name="text_samples_dispatched">Your samples are being dispatched to the nearest lab</string>
+    <string name="text_samples_collected">%1$s Samples Collected</string>
+    <string name="text_title_order_confirmed">Order Confirmed</string>
+    <string name="text_desc_order_confirmed_cec">Your order has been confirmed. Please visit the chosen CEC in the chosen time slot.</string>
+    <string name="text_desc_order_confirmed">Your order has been confirmed, we\’ll let you know when a phlebotomist is assigned to complete your order.</string>
+
+
+    <!-- Empty state text -->
+    <string name="empty_state_wallet_text">No transactions yet</string>
+    <string name="empty_state_booking_text">No bookings yet</string>
+    <string name="empty_state_report_text">No reports yet</string>
+    <string name="empty_state_family_text">No saved patients</string>
+    <string name="empty_state_saved_address_text">No saved address</string>
+    <string name="empty_state_cart">Cart looks empty, add items!</string>
+    <string name="empty_search_result">No result found!</string>
+    <string name="empty_test_list">No tests found!</string>
+    <string name="empty_package_list">No health packages found!</string>
+    <string name="empty_filter_list">No filters available!</string>
+    <string name="empty_notification_list">No notifications!</string>
+    <string name="empty_test_list_at_cec">No test associated with this center!</string>
+    <string name="empty_package_list_at_cec">No health packages associated with this center!</string>
+
+
+    <!-- Place Holders-->
+    <string name="holder_price">%1$s %2$s</string>
+    <string name="holder_cashback">%1$s%2$s Cashback</string>
+    <string name="holder_discount">%1$s\%% Off</string>
+    <string name="holder_precaution_item">&#160;\u25CF&#160;&#160;&#160;%1$s\n\n</string>
+    <string name="holder_test_count">%1$s Test%2$s</string>
+    <string name="holder_test_selected">%1$s Test%2$s Selected</string>
+    <string name="holder_test_on_priority">I want this report on priority (Pay %1$s %2$s extra)</string>
+    <string name="holder_order_extra_cost">Includes %1$s %2$s extra costs</string>
+    <string name="holder_order_cash_back">Great! You will receive %1$s %2$s cash back when your order is completed</string>
+    <string name="holder_patient_age_gender">Age %1$s &#160;\u25CF&#160;&#160;&#160; %2$s</string>
+    <string name="holder_order_success_cashback">You will receive %1$s %2$s cash back within 24 hours of report generation</string>
+    <string name="holder_search_result">Showing %1$s result%2$s&#8230;</string>
+    <string name="holder_saved_cards">%1$s Saved card%2$s</string>
+    <string name="holder_payment_validation_failed">Input validation failed: %1$s - %2$s</string>
+    <string name="holder_payment_failed">Payment failed: %1$s - %2$s</string>
+    <string name="holder_payment_received">Payment received: %1$s</string>
+    <string name="holder_transaction_type">%1$s for</string>
+    <string name="holder_fasting_required">%1$s fasting required</string>
+    <string name="holder_msg_cart_location_change">%1$s your cart items are discarded as they are not available at selected test location!</string>
+    <string name="holder_msg_location_change">"%1$s Changing the centre will remove all items from your cart!"</string>
+    <string name="holder_call_phlebo">Call %1$s</string>
+    <string name="holder_order_address_and_timing">%1$sAddress &amp; Slot Timing</string>
+
+
+    <!-- Extra Charges Type-->
+    <string name="extra_charge_home_delivery">HOME DELIVERY</string>
+    <string name="extra_charge_home_collection_same_day">Home Collection Same Day</string>
+    <string name="extra_charge_on_priority">ON PRIORITY</string>
+    <string name="dot"> • </string>
+    <string name="hello_user">Hello, User</string>
+    <string name="text_morning">Morning</string>
+    <string name="text_noon">Afternoon</string>
+    <string name="text_evening">Evening</string>
+    <string name="select_a_slot">Please select a slot</string>
+
+
+    <!-- Fresh chat -->
+    <string name="freshchat_file_provider_authority">com.humainhealth.android.customer.provider</string>
+    <string name="freshchat_app_id">ee8e21d8-ad94-49ab-92e0-cbbf7b7e1e93</string>
+    <string name="freshchat_app_key">f22336d9-b858-4a87-8c64-0dc7def9f562</string>
+    <string name="label_this_location_is_not_serviceable">This location is not serviceable</string>
+    <string name="location_edit">Edit Location</string>
+    <string name="title_activity_report_details">ReportDetailsActivity</string>
+    <string name="alt0">wo</string>
+    <string name="alt1">w1</string>
+    <string name="alt2">w2</string>
+    <string name="report_ready">5/5 Reports Ready</string>
+
+    <!-- pay now recent order items -->
+    <string name="review_and_pay">Review &amp; Pay</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="view_invoice">View Invoice</string>
+    <string name="at_centre">I’m at the Centre</string>
+    <string name="generate_token_otp">Generate Token &amp; OTP</string>
+    <string name="rate_ur_exp">Rate your experience</string>
+    <string name="view_details">View Details</string>
+    <string name="view_reports">View Reports</string>
+    <string name="u_r_on_time">You’re On Time!</string>
+    <string name="token_otp_generated">Token &amp; OTP Generated</string>
+    <string name="call_us">Call Us</string>
+    <string name="room_assigned">Room Assigned</string>
+    <string name="samples_collected">Samples Collected</string>
+    <string name="in_processing">In Processing</string>
+    <string name="reports_ready">%1$d/%2$d Reports Ready</string>
+    <string name="msg_on_samples_collected">Thank you for choosing us.</string>
+    <string name="msg_on_room_assigned">You’ll soon be assigned a room as per your token.</string>
+    <string name="msg_for_room_assigned">Please proceed to the room as per your turn.</string>
+    <string name="msg_sample_rejection_status_info">Oops! We were not able to process your sample. We will get in touch with you shortly with further details.</string>
+    <string name="msg_booking_cancelled__cod_status_info">We’re sorry that you had to cancel the order. You can proceed to the helpdesk to collect your refund.</string>
+    <string name="msg_booking_cancelled__online_paid_status_info">We’re sorry that you had to cancel the booking. Your refund will be processed within 5&#8211;7 business days to the payment method used. Feel free to get in touch with us for further details. </string>
+
+    <!-- order cancellation -->
+    <string name="booking_details">Booking Details</string>
+    <string name="booking_cancelled">Booking Cancelled</string>
+    <string name="label_cancellation">Tell us why you’re cancelling (Optional)</string>
+    <string name="hint_cancellation">Or what can we do to change your mind?</string>
+    <string name="are_u_sure_cancel_booking">Are you sure you want to cancel this booking?</string>
+    <string name="msg_refund_order_online_paid_cancellation">A refund of %1$s will be processed within 5&#8211;7 business days to the payment method used.</string>
+    <string name="msg_refund_order_cod_cancellation">A total of %1$s  will be refunded if you cancel this order. You can proceed to the helpdesk to collect your refund after cancellation.</string>
+    <string name="msg_booking_cancelled_unpaid_order">We’re sorry that your booking has been cancelled.</string>
+    <string name="msg_at_center_time">You\'re On Time!</string>
+    <string name="msg_on_time">Great. You\'re On Time! </string>
+    <string name="msg_at_center_early">Looks like you’re early!</string>
+    <string name="msg_at_center_late">Umm.. you’re a little late.</string>
+    <string name="msg_sample_rejection_info">Report prcocessing paused</string>
+
+    <string name="cec_address">Humain Diagnostics | %1$s</string>
+
+    <!-- location detection -->
+    <string name="msg_failed_to_detect_location">We’re not able to detect your location.</string>
+    <string name="msg_failed_to_detect_location_info">Please make sure you’ve enabled location access, or head to the registration kiosk at the centre to proceed with your booking.</string>
+    <string name="enable_location_access">Enable Location Access</string>
+
+    <!-- not at center -->
+    <string name="msg_not_at_center">It seems like you’re not at the centre.</string>
+    <string name="msg_not_at_center_info">If you think this is incorrect, please head to the registration kiosk to proceed with your booking.</string>
+    <string name="try_again">Try Again</string>
+
+    <!-- detect location -->
+    <string name="wait_detecting_location">Please wait while we’re detecting your location&#8230;</string>
+    <string name="detect_location_info">This’ll be faster if your GPS is on</string>
+
+    <string name="msg_pending_report">Full report pending. We apologise for the delay in getting your reports ready. We’re trying our best to get them to you as soon as possible.</string>
+    <string name="welcome_msg">Welcome Inside Code World</string>
+</resources>

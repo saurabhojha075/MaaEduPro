@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@color/colorParentBackground"
+                                             app:layout_constraintBottom_toBottomOf="parent"
+                                             app:layout_constraintLeft_toLeftOf="parent"
+                                             app:layout_constraintRight_toRightOf="parent"
+                                             app:layout_constraintTop_toTopOf="parent">
+
+    <com.example.maaedupro.views.customviews.CustomEditText
+            android:id="@+id/et_contact_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_super_extra_large"
+            android:layout_marginRight="@dimen/margin_super_extra_large"
+            android:layout_marginTop="80dp"
+            android:background="@android:color/transparent"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="@string/hint_phone"
+            android:imeOptions="actionDone"
+            android:inputType="phone|number"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_extra_large_heading"
+            app:customFont="@string/font_bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="9876543210" />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_super_extra_large"
+            android:layout_marginRight="@dimen/margin_super_extra_large"
+            android:background="@color/colorGreyMediumDark"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_contact_number" />
+
+    <com.example.maaedupro.views.customviews.CustomTextView
+            android:id="@+id/tv_message_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_super_extra_large"
+            android:layout_marginRight="@dimen/margin_super_extra_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/message_otp"
+            android:textColor="@color/colorGrey"
+            android:textSize="@dimen/text_medium"
+            android:textAlignment="center"
+            app:customFont="@string/font_medium"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_contact_number" />
+
+    <include layout="@layout/layout_btn_continue" />
+
+</android.support.constraint.ConstraintLayout>

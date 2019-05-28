@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorWhite"
+    android:minHeight="@dimen/toolbar_min_height">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/viewToolbarBack"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/toolbar_button_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/margin_large"
+            android:paddingLeft="@dimen/margin_medium"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingStart="@dimen/margin_medium"
+            android:paddingTop="@dimen/margin_small"
+            tools:visibility="visible">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+            <com.example.maaedupro.views.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginStart="@dimen/margin_small"
+                android:includeFontPadding="false"
+                android:text="@string/btn_toolbar_back"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_medium"
+                app:customFont="@string/font_bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewToolbarCustomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/toolbar_button_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/margin_large"
+            android:paddingLeft="@dimen/margin_medium"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingStart="@dimen/margin_medium"
+            android:paddingTop="@dimen/margin_small"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivToolbarCustomIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+            <com.example.maaedupro.views.customviews.CustomTextView
+                android:id="@+id/tvToolbarCustomTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginStart="@dimen/margin_regular"
+                android:text="@string/title_notification"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_sub_heading"
+                app:customFont="@string/font_bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewToolbarCart"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/toolbar_button_height"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/margin_large"
+            android:paddingLeft="@dimen/margin_medium"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingStart="@dimen/margin_medium"
+            android:paddingTop="@dimen/margin_extra_small"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <FrameLayout
+                android:id="@+id/flCart"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_regular"
+                android:descendantFocusability="blocksDescendants">
+
+                <ImageView
+                    android:id="@+id/ivCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher_foreground" />
+
+                <com.example.maaedupro.views.customviews.CustomTextView
+                    android:id="@+id/tvCartCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_regular"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/drawable_tick_green"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:maxLength="2"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_extra_small"
+                    app:customFont="@string/font_bold" />
+            </FrameLayout>
+
+            <com.example.maaedupro.views.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_cart"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_large"
+                app:customFont="@string/font_bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewToolbarLocation"
+            android:layout_width="125dp"
+            android:layout_height="@dimen/toolbar_button_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/margin_large"
+            android:paddingLeft="@dimen/margin_medium"
+            android:paddingRight="@dimen/margin_large"
+            android:paddingStart="@dimen/margin_medium"
+            android:paddingTop="@dimen/margin_small"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+            <com.example.maaedupro.views.customviews.CustomTextView
+                android:id="@+id/tvToolbarLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginStart="@dimen/margin_small"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:ellipsize="end"
+                tools:text="CEC L-172, Sector 6, HSR Layout, Bengaluru, Karnataka 560102"
+                android:text="@string/title_location_home"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_small"
+                app:customFont="@string/font_regular" />
+        </LinearLayout>
+
+        <com.example.maaedupro.views.customviews.CustomTextView
+            android:id="@+id/viewToolbarClose"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/toolbar_button_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/margin_medium"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_medium"
+            android:paddingStart="@dimen/margin_large"
+            android:paddingTop="@dimen/margin_small"
+            android:text="@string/btn_toolbar_cancel"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_medium"
+            app:customFont="@string/font_bold"
+            tools:visibility="gone" />
+    </RelativeLayout>
+
+    <com.humainhealth.android.customer.views.customviews.CustomTextView
+        android:id="@+id/viewToolbarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/toolbar_button_height"
+        android:layout_toLeftOf="@id/viewFilter"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:paddingBottom="@dimen/margin_medium"
+        android:text="@string/app_name"
+        android:textColor="@color/colorBlackVariantOne"
+        android:textSize="@dimen/text_sub_heading"
+        app:customFont="@string/font_bold"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/viewFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/toolbar_button_height"
+        android:paddingBottom="@dimen/margin_medium"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"
+        android:visibility="gone"
+        tools:visibility="gone" />
+</RelativeLayout>

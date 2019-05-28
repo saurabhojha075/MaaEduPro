@@ -1,0 +1,15 @@
+# API Base URL
+base_url = "http://api-test.humaindiagnostics.com/api/v1/"
+base_url_user = "http://api-test.humaindiagnostics.com/user-service/api/v1/user/"
+base_url_user_address = "http://api-test.humaindiagnostics.com/user-service/api/v1/"
+base_url_catalog = "http://api-test.humaindiagnostics.com/catalog-service/api/v1/"
+
+base_url_document = "http://api-test.humaindiagnostics.com/document-service/api/v1/"
+base_url_notification = "http://api-test.humaindiagnostics.com/notification-service/api/v1/"
+base_url_payment = "http://api-test.humaindiagnostics.com/payment-service/api/v1/"
+base_url_logistics = "http://api-test.humaindiagnostics.com/api/v1"
+
+# Analytics Libraries
+is_firebase_analyitcs_enabled = "false"
+is_crashlytics_enabled = "false"
+is_google_analytics_enabled = "false"

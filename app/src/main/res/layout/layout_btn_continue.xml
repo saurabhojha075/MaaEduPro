@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/layout_continue"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:background="@android:color/transparent"
+              android:paddingBottom="@dimen/margin_large"
+              android:paddingLeft="@dimen/margin_large"
+              android:paddingRight="@dimen/margin_large"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent">
+
+    <com.example.maaedupro.views.customviews.CustomButton
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_background_green_regular_rounded_corner"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_regular"
+            android:paddingTop="@dimen/margin_regular"
+            android:shadowColor="@android:color/transparent"
+            android:text="@string/btn_continue"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_extra_large"
+            app:customFont="@string/font_semi_bold" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+# API Base URL
+base_url = "http://35.200.154.140/api/v1/"
+base_url_user = "http://35.200.154.140/user-service/api/v1/user/"
+base_url_user_address = "http://35.200.154.140/user-service/api/v1/"
+base_url_catalog = "http://35.200.154.140/catalog-service/api/v1/"
+
+base_url_document = "http://35.200.154.140/document-service/api/v1/"
+base_url_notification = "http://35.200.154.140/notification-service/api/v1/"
+base_url_payment = "http://35.200.154.140/payment-service/api/v1/"
+base_url_logistics = "http://35.200.154.140:9060/api/v1"
+
+# Analytics Libraries
+is_firebase_analyitcs_enabled = "false"
+is_crashlytics_enabled = "false"
+is_google_analytics_enabled = "false"
